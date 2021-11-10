@@ -8,6 +8,7 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
+    "@pinia/nuxt": "npm:@pi0/pinia-nuxt@0.2.0-4",
     "nuxt3": "latest"
   },
   "installConfig": {

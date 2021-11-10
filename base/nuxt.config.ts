@@ -1,3 +1,5 @@
 export default {
-  modules: []
+  buildModules: [
+    '@pinia/nuxt'
+  ]
 }
