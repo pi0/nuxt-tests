@@ -2297,6 +2297,8 @@ __metadata:
   resolution: "@tests/nuxt2@workspace:nuxt2"
   dependencies:
     "@nuxt/types": "npm:@nuxt/types-edge@latest"
+    "@pinia/nuxt": "npm:@pi0/pinia-nuxt@0.2.0-5"
+    "@vue/composition-api": latest
     nuxt-edge: latest
   languageName: unknown
   linkType: soft
@@ -3159,6 +3161,17 @@ __metadata:
   peerDependencies:
     vue: ">= 2.5 < 3"
   checksum: 77949b20bfc11b7c49a15bc1a5445d1796517e2e696552c796a2cecb725d4b6fe690f02fda9022fd37bc659f24b2e3a49f45c659bf9d2558ff833cafb8fd19d9
+  languageName: node
+  linkType: hard
+
+"@vue/composition-api@npm:latest":
+  version: 1.4.0-beta.0
+  resolution: "@vue/composition-api@npm:1.4.0-beta.0"
+  dependencies:
+    tslib: ^2.3.1
+  peerDependencies:
+    vue: ">= 2.5 < 3"
+  checksum: c06b904894c89e2929ffff7ea1fa3b7e7058d68166cee9be9be2fe953fef1f724d06fd96c0d7ca13757aa73fc6f00d4e6f37ee7eaf6a0c86e65d21197927f341
   languageName: node
   linkType: hard
 

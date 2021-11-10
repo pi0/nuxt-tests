@@ -9,6 +9,8 @@
   },
   "devDependencies": {
     "@nuxt/types": "npm:@nuxt/types-edge@latest",
+    "@pinia/nuxt": "npm:@pi0/pinia-nuxt@0.2.0-5",
+    "@vue/composition-api": "latest",
     "nuxt-edge": "latest"
   },
   "installConfig": {
