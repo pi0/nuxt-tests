@@ -5,8 +5,20 @@
     "nuxt2-bridge",
     "nuxt3"
   ],
+  "packageManager": "yarn@3.1.0",
   "scripts": {
-    "setup": "yarn"
+    "dev": "concurrently npm:dev:nuxt2 npm:dev:bridge npm:dev:nuxt3",
+    "dev:nuxt2": "cd nuxt2 && yarn dev",
+    "dev:bridge": "cd nuxt2-bridge && yarn dev",
+    "dev:nuxt3": "cd nuxt3 && yarn dev",
+    "build:nuxt2": "cd nuxt2 && yarn build",
+    "build:bridge": "cd nuxt2-bridge && yarn build",
+    "build:nuxt3": "cd nuxt3 && yarn build",
+    "start:nuxt2": "cd nuxt2 && yarn start",
+    "start:bridge": "cd nuxt2-bridge && yarn start",
+    "start:nuxt3": "cd nuxt3 && yarn start"
   },
-  "packageManager": "yarn@3.1.0"
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  }
 }

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "nuxi build",
-    "dev": "nuxi dev",
+    "dev": "PORT=3002 nuxi dev",
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
