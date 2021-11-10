@@ -1,4 +1,4 @@
-import sharedConfig from '../nuxt.config'
+import sharedConfig from '../base/nuxt.config'
 import { version } from 'nuxt-edge/package.json'
 import type { NuxtConfig } from '@nuxt/types'
 

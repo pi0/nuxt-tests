@@ -1,4 +1,4 @@
-import sharedConfig from '../nuxt.config'
+import sharedConfig from '../base/nuxt.config'
 import { version } from 'nuxt3/package.json'
 import { defineNuxtConfig } from 'nuxt3'
 

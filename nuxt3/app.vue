@@ -1,1 +1,1 @@
-../app.vue
+../base/app.vue
