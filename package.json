@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "workspaces": [
+    "nuxt2",
+    "nuxt2-bridge",
+    "nuxt3"
+  ],
+  "scripts": {
+    "setup": "yarn"
+  },
+  "packageManager": "yarn@3.1.0"
+}

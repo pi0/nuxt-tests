@@ -4,3 +4,4 @@ node_modules
 dist
 .output
 nuxt.d.ts
+.yarn/cache

@@ -1,4 +1,6 @@
 {
+  "name": "@tests/nuxt3",
+  "version": "3.0.0",
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
@@ -7,5 +9,8 @@
   },
   "devDependencies": {
     "nuxt3": "latest"
+  },
+  "installConfig": {
+    "hoistingLimits": "workspaces"
   }
 }

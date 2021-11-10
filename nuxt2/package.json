@@ -1,4 +1,6 @@
 {
+  "name": "@tests/nuxt2",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -8,5 +10,8 @@
   "devDependencies": {
     "@nuxt/types": "npm:@nuxt/types-edge@latest",
     "nuxt-edge": "latest"
+  },
+  "installConfig": {
+    "hoistingLimits": "workspaces"
   }
 }

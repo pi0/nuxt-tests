@@ -1,4 +1,6 @@
 {
+  "name": "@tests/nuxt2-bridge",
+  "version": "2.0.0-bridge",
   "private": true,
   "scripts": {
     "build": "nuxi build",
@@ -8,5 +10,8 @@
   "devDependencies": {
     "@nuxt/bridge": "npm:@nuxt/bridge-edge@latest",
     "nuxt-edge": "latest"
+  },
+  "installConfig": {
+    "hoistingLimits": "workspaces"
   }
 }
