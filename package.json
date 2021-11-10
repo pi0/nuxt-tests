@@ -5,20 +5,24 @@
     "nuxt2-bridge",
     "nuxt3"
   ],
-  "packageManager": "yarn@3.1.0",
   "scripts": {
-    "dev": "concurrently npm:dev:nuxt2 npm:dev:bridge npm:dev:nuxt3",
-    "dev:nuxt2": "cd nuxt2 && yarn dev",
-    "dev:bridge": "cd nuxt2-bridge && yarn dev",
-    "dev:nuxt3": "cd nuxt3 && yarn dev",
-    "build:nuxt2": "cd nuxt2 && yarn build",
     "build:bridge": "cd nuxt2-bridge && yarn build",
+    "build:nuxt2": "cd nuxt2 && yarn build",
     "build:nuxt3": "cd nuxt3 && yarn build",
-    "start:nuxt2": "cd nuxt2 && yarn start",
+    "dev": "concurrently npm:dev:nuxt2 npm:dev:bridge npm:dev:nuxt3",
+    "dev:bridge": "cd nuxt2-bridge && yarn dev",
+    "dev:nuxt2": "cd nuxt2 && yarn dev",
+    "dev:nuxt3": "cd nuxt3 && yarn dev",
+    "lint": "eslint --ext .ts,.js,.mjs,.cjs .",
     "start:bridge": "cd nuxt2-bridge && yarn start",
+    "start:nuxt2": "cd nuxt2 && yarn start",
     "start:nuxt3": "cd nuxt3 && yarn start"
   },
   "devDependencies": {
-    "concurrently": "^6.3.0"
-  }
+    "@nuxtjs/eslint-config-typescript": "^7.0.2",
+    "concurrently": "^6.3.0",
+    "eslint": "^8.2.0",
+    "typescript": "^4.4.4"
+  },
+  "packageManager": "yarn@3.1.0"
 }

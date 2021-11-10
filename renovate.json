@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "@nuxtjs"
+  ],
+  "ignoreDeps": [
+    "docus",
+    "@docus/app",
+    "@docus/github",
+    "@docus/social-image",
+    "@docus/theme",
+    "@docus/twitter"
+  ]
+}
