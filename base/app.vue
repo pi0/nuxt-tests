@@ -8,7 +8,7 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { defineStore } from 'pinia'
 
 const useCounterStore = defineStore('counter', {
@@ -20,10 +20,5 @@ const useCounterStore = defineStore('counter', {
   }
 })
 
-export default {
-  setup () {
-    const counter = useCounterStore()
-    return { counter }
-  }
-}
+const counter = useCounterStore()
 </script>
