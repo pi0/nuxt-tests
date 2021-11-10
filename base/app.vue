@@ -9,8 +9,6 @@
 </template>
 
 <script setup>
-import { defineStore } from 'pinia'
-
 const useCounterStore = defineStore('counter', {
   state: () => ({ count: Math.round(Math.random() * 100) }),
   actions: {

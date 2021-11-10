@@ -2144,13 +2144,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pinia/nuxt@npm:@pi0/pinia-nuxt@0.2.0-4":
-  version: 0.2.0-4
-  resolution: "@pi0/pinia-nuxt@npm:0.2.0-4"
+"@pinia/nuxt@npm:@pi0/pinia-nuxt@0.2.0-5":
+  version: 0.2.0-5
+  resolution: "@pi0/pinia-nuxt@npm:0.2.0-5"
   dependencies:
     "@nuxt/kit": latest
     pinia: ^2.0.3
-  checksum: b0eb144ed737abda2e61999e90fdeaaf2bbf812425fcd97f89924fb502439506a54983fdb86731e9ab43ff9382f84dae85a4b88eebcfc7e7b302c954e94c311b
+  checksum: b88013115d15d32b61e389503615a689263788e4ff6ff82346e8707a2e2baa3390540bf8d1512e7ff7657c2c6ea01167cdd87f9864b0446acb12f803d15a0b59
   languageName: node
   linkType: hard
 
@@ -2287,7 +2287,7 @@ __metadata:
   resolution: "@tests/nuxt2-bridge@workspace:nuxt2-bridge"
   dependencies:
     "@nuxt/bridge": "npm:@nuxt/bridge-edge@latest"
-    "@pinia/nuxt": "npm:@pi0/pinia-nuxt@0.2.0-4"
+    "@pinia/nuxt": "npm:@pi0/pinia-nuxt@0.2.0-5"
     nuxt-edge: latest
   languageName: unknown
   linkType: soft
@@ -2305,7 +2305,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tests/nuxt3@workspace:nuxt3"
   dependencies:
-    "@pinia/nuxt": "npm:@pi0/pinia-nuxt@0.2.0-4"
+    "@pinia/nuxt": "npm:@pi0/pinia-nuxt@0.2.0-5"
     nuxt3: latest
   languageName: unknown
   linkType: soft
