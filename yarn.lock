@@ -13957,7 +13957,7 @@ __metadata:
     "@nuxtjs/eslint-config-typescript": ^7.0.2
     concurrently: ^6.3.0
     eslint: ^8.2.0
-    typescript: ^4.4.4
+    typescript: ^5.4.3
   languageName: unknown
   linkType: soft
 
@@ -15434,23 +15434,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.4.4":
-  version: 4.4.4
-  resolution: "typescript@npm:4.4.4"
+"typescript@npm:^5.4.3":
+  version: 5.4.3
+  resolution: "typescript@npm:5.4.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 89ecb8436bb48ef5594d49289f5f89103071716b6e4844278f4fb3362856e31203e187a9c76d205c3f0b674d221a058fd28310dbcbcf5d95e9a57229bb5203f1
+  checksum: d74d731527e35e64d8d2dcf2f897cf8cfbc3428be0ad7c48434218ba4ae41239f53be7c90714089db1068c05cae22436af2ecba71fd36ecc5e7a9118af060198
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.4.4#~builtin<compat/typescript>":
-  version: 4.4.4
-  resolution: "typescript@patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=ddd1e8"
+"typescript@patch:typescript@^5.4.3#~builtin<compat/typescript>":
+  version: 5.4.3
+  resolution: "typescript@patch:typescript@npm%3A5.4.3#~builtin<compat/typescript>::version=5.4.3&hash=ddd1e8"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: bd629ad0da4a15d79aaad56baf3ee7d96f6a181760d430ae77f8c5325df7bffd9edee57544a3970e3651e8b796fe03a5838a7eb39c6d46cc3866c0b23d36a0dd
+  checksum: 3a62fe90aa79d68c9ce38ea5edb2957e62801c733b99f0e5a2b8b50922761f68f7d9a40d28c544b449866e81185cddb93cba2496d0ff3fa52ef5b1f8bcace38c
   languageName: node
   linkType: hard
 
